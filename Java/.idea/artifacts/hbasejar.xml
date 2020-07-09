@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="hbasejar">
+    <output-path>$PROJECT_DIR$/out/artifacts/hbasejar</output-path>
+    <root id="archive" name="hbasejar.jar">
+      <element id="module-output" name="Java" />
+    </root>
+  </artifact>
+</component>
