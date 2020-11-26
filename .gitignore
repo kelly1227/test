@@ -1,2 +1,2 @@
 # python 文件
-.pyc
+*.pyc
