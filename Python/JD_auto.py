@@ -11,3 +11,9 @@ desired_caps['appActivity'] = '.main.MainActivity' #com.taobao.tao.TBMainActivit
 
 driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 wait = WebDriverWait(driver,30)
+
+login = driver.find_element_by_xpath("//android.view.View[@content-desc='我的']")
+wait = WebDriverWait(driver,20)
+
+login = driver.find_element_by_xpath("//android.view.View[@content-desc='我的']")
+wait = WebDriverWait(driver,20)
