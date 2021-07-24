@@ -1,4 +1,9 @@
 # Android篇
+--Android架构介绍
+Android的架构可以从架构图得知，主要分四层：
+https://www.jianshu.com/p/657336b545bd
+
+
 
 ## 1. 性能测试
 

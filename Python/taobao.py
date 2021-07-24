@@ -1,4 +1,3 @@
-from time import sleep
 from appium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 
@@ -10,4 +9,4 @@ desired_caps['appPackage'] = 'com.jingdong.app.mall'
 desired_caps['appActivity'] = '.MainFrameActivity'
 
 driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
-wait = WebDriverWait(driver,30)
+wait = WebDriverWait(driver,timeout=60)
